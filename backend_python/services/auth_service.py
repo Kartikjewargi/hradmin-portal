@@ -36,6 +36,10 @@ class AuthService:
         if not user.is_active:
             return None
         
+        # Only HR admins can login on web portal
+        if user.role != UserRole.HR:
+            return None
+        
         # Create access token
         access_token = create_access_token(
             data={

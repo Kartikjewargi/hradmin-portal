@@ -84,9 +84,8 @@ The frontend will run at **http://localhost:5173**
 | Role | Email | Password |
 |------|-------|----------|
 | HR Admin | admin@company.com | admin123 |
-| Employee | {emp_id}@company.com | {emp_id} |
 
-> **Note:** Employee data is managed through a separate attendance backend integration.
+> **Note:** This web portal is for HR Admin only. Employees login through the mobile app.
 
 ---
 

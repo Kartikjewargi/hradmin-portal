@@ -7,7 +7,6 @@ import {
   CreditCard,
   Bell,
   Calculator,
-  Receipt,
 } from 'lucide-react';
 import { NavLink } from '@/components/NavLink';
 import {
@@ -30,7 +29,6 @@ const navItems = [
   { title: 'Leave Applications', url: '/leave-applications', icon: FileText },
   { title: 'Payroll Management', url: '/payroll-management', icon: Calculator },
   { title: 'Payslips', url: '/payslips', icon: CreditCard },
-  { title: 'My Payslip', url: '/my-payslip', icon: Receipt },
   { title: 'Notifications', url: '/notifications', icon: Bell },
 ];
 

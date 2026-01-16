@@ -13,7 +13,6 @@ import LeaveApplicationsPage from "@/pages/LeaveApplications";
 import PayslipsPage from "@/pages/Payslips";
 import NotificationsPage from "@/pages/Notifications";
 import PayrollManagement from "@/pages/PayrollManagement";
-import EmployeePayslip from "@/pages/EmployeePayslip";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -73,14 +72,6 @@ const App = () => (
               element={
                 <AppLayout>
                   <PayrollManagement />
-                </AppLayout>
-              }
-            />
-            <Route
-              path="/my-payslip"
-              element={
-                <AppLayout>
-                  <EmployeePayslip />
                 </AppLayout>
               }
             />
