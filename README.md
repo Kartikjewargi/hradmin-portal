@@ -86,7 +86,7 @@ The frontend will run at **http://localhost:5173**
 | HR Admin | admin@company.com | admin123 |
 | Employee | {emp_id}@company.com | {emp_id} |
 
-> **Note:** Employees can only login after their payroll is approved by HR Admin.
+> **Note:** Employee data is managed through a separate attendance backend integration.
 
 ---
 

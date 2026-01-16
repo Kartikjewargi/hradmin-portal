@@ -36,10 +36,6 @@ class AuthService:
         if not user.is_active:
             return None
         
-        # For employees, check if they can login (payroll approved)
-        if user.role == UserRole.EMPLOYEE and not user.can_login:
-            return None
-        
         # Create access token
         access_token = create_access_token(
             data={
