@@ -1,0 +1,7 @@
+# Uploads Directory
+
+This directory stores uploaded Excel files from HR.
+
+Files are automatically saved here when HR uploads salary/attendance data.
+
+**Note:** This directory is auto-created by the application if it doesn't exist.

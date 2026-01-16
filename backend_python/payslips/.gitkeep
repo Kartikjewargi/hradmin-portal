@@ -1,0 +1,7 @@
+# Payslips Directory
+
+This directory stores generated PDF payslips.
+
+Payslip PDFs are automatically created here when HR generates payroll.
+
+**Note:** This directory is auto-created by the application if it doesn't exist.
